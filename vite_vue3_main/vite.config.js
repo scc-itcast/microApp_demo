@@ -1,10 +1,10 @@
 /*
  * @Author: guoke scc15599065860@163.com
- * @Date: 2023-06-09 11:04:08
+ * @Date: 2023-06-13 09:25:34
  * @LastEditors: guoke scc15599065860@163.com
- * @LastEditTime: 2023-06-17 14:01:37
- * @FilePath: \micro-app-demo-master\main_apps\vite-vue3\vite.config.ts
- * @Description: vite.config
+ * @LastEditTime: 2023-06-17 15:23:28
+ * @FilePath: \microApp_demo\vite_vue3_main\vite.config.js
+ * @Description: config
  */
 import { resolve } from 'path'
 import { defineConfig, searchForWorkspaceRoot } from 'vite'
@@ -18,6 +18,7 @@ import compressDist from './plugin/compress-dist'
 export default defineConfig({
   base: '/main/',
   build: {
+    outDir: 'main',
     // 消除打包大小超过500kb警告
     chunkSizeWarningLimit: 3000
     // commonjsOptions: {
