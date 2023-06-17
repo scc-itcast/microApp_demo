@@ -1,0 +1,40 @@
+2022/07/20 15:04:31 [notice] 38272#22964: signal process started
+2022/07/20 15:04:31 [error] 38272#22964: CreateFile() "D:\code-project\full-stack\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/07/20 15:04:50 [notice] 35876#19152: signal process started
+2022/07/22 10:18:01 [error] 24768#31836: *49 CreateFile() "D:\code-project\full-stack\nginx-1.22.0/html/:5501/dist/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /:5501/dist/index.html HTTP/1.1", host: "localhost"
+2022/07/22 10:18:01 [error] 24768#31836: *49 CreateFile() "D:\code-project\full-stack\nginx-1.22.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/:5501/dist/index.html"
+2022/07/25 11:26:11 [notice] 70700#72164: signal process started
+2022/07/25 11:38:19 [notice] 71656#67836: signal process started
+2022/07/25 11:44:53 [notice] 55080#68684: signal process started
+2022/07/25 15:33:42 [error] 66428#38572: *107 directory index of "D:\code-project\full-stack\nginx-1.22.0/html/" is forbidden, client: 192.168.32.39, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "192.168.32.39"
+2022/07/25 15:42:05 [notice] 53048#49916: signal process started
+2022/07/25 16:44:01 [error] 33212#55712: *174 rewrite or internal redirection cycle while internally redirecting to "/pvite/index.html", client: 192.168.32.39, server: 127.0.0.1, request: "GET /pvite/equipment/index HTTP/1.1", host: "192.168.32.39"
+2022/12/20 06:47:51 [emerg] 6636#6640: host not found in upstream "webapi.amap.com" in D:\code-project\full-stack\nginx-1.22.0/conf/nginx.conf:46
+2023/01/15 08:52:54 [emerg] 6624#6628: host not found in upstream "webapi.amap.com" in D:\code-project\full-stack\nginx-1.22.0/conf/nginx.conf:46
+2023/06/13 16:45:29 [notice] 17508#8136: signal process started
+2023/06/13 16:46:16 [notice] 28748#11296: signal process started
+2023/06/13 16:46:22 [notice] 26108#10920: signal process started
+2023/06/13 16:46:22 [error] 26108#10920: CreateFile() "E:\project\full-stack\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/06/13 16:46:24 [notice] 28592#7800: signal process started
+2023/06/13 16:46:24 [error] 28592#7800: CreateFile() "E:\project\full-stack\nginx-1.22.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/06/13 16:47:52 [error] 30700#9156: *4 rewrite or internal redirection cycle while internally redirecting to "/main-vite/index.html", client: 127.0.0.1, server: 127.0.0.1, request: "GET /main-vite/assets/index.b8075087.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/child"
+2023/06/13 16:47:52 [error] 30700#9156: *2 rewrite or internal redirection cycle while internally redirecting to "/main-vite/index.html", client: 127.0.0.1, server: 127.0.0.1, request: "GET /main-vite/assets/index.851e5541.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/child"
+2023/06/13 16:47:52 [error] 30700#9156: *5 rewrite or internal redirection cycle while internally redirecting to "/main-vite/index.html", client: 127.0.0.1, server: 127.0.0.1, request: "GET /main-vite/assets/vendor.76f1b69c.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/child"
+2023/06/13 16:47:52 [error] 30700#9156: *6 rewrite or internal redirection cycle while internally redirecting to "/main-vite/index.html", client: 127.0.0.1, server: 127.0.0.1, request: "GET /main-vite/favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/child"
+2023/06/13 16:49:03 [notice] 5408#9480: signal process started
+2023/06/13 16:50:40 [notice] 2200#26252: signal process started
+2023/06/13 17:09:29 [notice] 23396#13436: signal process started
+2023/06/13 17:34:09 [notice] 10992#15032: signal process started
+2023/06/14 10:21:37 [notice] 5672#2460: signal process started
+2023/06/14 10:39:04 [notice] 22072#4680: signal process started
+2023/06/14 17:01:16 [notice] 10336#24164: signal process started
+2023/06/15 11:12:10 [notice] 31104#20392: signal process started
+2023/06/15 11:12:37 [notice] 31164#23492: signal process started
+2023/06/17 09:48:07 [error] 30364#5588: *3023 directory index of "E:\project\full-stack\nginx-1.22.0/html/child/vite1/assets/vite1/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET /child/vite1/assets/vite1/ HTTP/1.1", host: "127.0.0.1"
+2023/06/17 09:48:07 [error] 30364#5588: *3023 directory index of "E:\project\full-stack\nginx-1.22.0/html/child/vite1/assets/vite1/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET /child/vite1/assets/vite1/ HTTP/1.1", host: "127.0.0.1"
+2023/06/17 09:48:07 [error] 30364#5588: *3023 directory index of "E:\project\full-stack\nginx-1.22.0/html/child/vite1/assets/vite1/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET /child/vite1/assets/vite1/ HTTP/1.1", host: "127.0.0.1"
+2023/06/17 09:48:40 [notice] 22888#19728: signal process started
+2023/06/17 14:23:51 [emerg] 12944#26060: invalid URL prefix in E:\project\full-stack\nginx-1.22.0/conf/nginx.conf:34
+2023/06/17 14:24:16 [notice] 1884#17752: signal process started
+2023/06/17 14:24:24 [emerg] 23068#14536: invalid URL prefix in E:\project\full-stack\nginx-1.22.0/conf/nginx.conf:34
+2023/06/17 14:24:28 [notice] 28524#27580: signal process started

@@ -1,11 +1,3 @@
-/*
- * @Author: guoke scc15599065860@163.com
- * @Date: 2023-06-10 14:43:39
- * @LastEditors: guoke scc15599065860@163.com
- * @LastEditTime: 2023-06-17 13:47:52
- * @FilePath: \microApp_demo\vite-vue3-child\vite.config.ts
- * @Description: vite.config
- */
 import { join, resolve } from "path";
 import { writeFileSync } from "fs";
 import { defineConfig } from "vite";
@@ -14,7 +6,6 @@ import AutoImport from "unplugin-auto-import/vite";
 import postcsspxtoviewport from "./plugin/postcss-px-to-viewport";
 import compressDist from "./plugin/compress-dist";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   base: `${
     process.env.NODE_ENV === "production" ? "http://10.200.26.192" : ""

@@ -1,0 +1,107 @@
+2022-12-06 21:56:17,846 DEBUG - Starting WinSW in console mode
+2022-12-06 21:56:17,858 INFO  - Installing service 'nginx (nginx)'...
+2022-12-06 21:56:17,866 INFO  - Service 'nginx (nginx)' was installed successfully.
+2022-12-06 21:58:37,301 DEBUG - Starting WinSW in service mode
+2022-12-06 21:58:37,316 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2022-12-06 21:58:37,343 INFO  - Started process 90004
+2022-12-06 21:58:37,353 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2022-12-06 21:59:51,902 INFO  - Stopping nginx
+2022-12-06 21:59:51,918 DEBUG - ProcessKill 90004
+2022-12-06 21:59:51,933 DEBUG - Stopping process 90004...
+2022-12-06 21:59:51,949 DEBUG - Process 90004 terminated.
+2022-12-06 21:59:52,261 DEBUG - Found child process 89212.
+2022-12-06 21:59:52,261 DEBUG - Stopping process 89212...
+2022-12-06 21:59:52,277 DEBUG - Process 89212 canceled with code -1073741510.
+2022-12-06 21:59:52,293 INFO  - Finished nginx
+2022-12-06 22:00:23,336 DEBUG - Starting WinSW in service mode
+2022-12-06 22:00:23,414 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2022-12-06 22:00:23,758 INFO  - Started process 6480
+2022-12-06 22:00:23,758 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2022-12-16 17:04:44,644 INFO  - Stopping nginx
+2022-12-16 17:04:44,676 DEBUG - ProcessKill 6480
+2022-12-16 17:04:44,691 DEBUG - Stopping process 6480...
+2022-12-16 17:04:44,707 DEBUG - Process 6480 terminated.
+2022-12-16 17:04:44,910 DEBUG - Found child process 6808.
+2022-12-16 17:04:44,941 DEBUG - Stopping process 6808...
+2022-12-16 17:04:44,972 DEBUG - Process 6808 canceled with code -1073741510.
+2022-12-16 17:04:44,988 INFO  - Finished nginx
+2022-12-16 17:05:16,594 DEBUG - Starting WinSW in service mode
+2022-12-16 17:05:16,657 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2022-12-16 17:05:17,063 INFO  - Started process 6308
+2022-12-16 17:05:17,063 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2022-12-20 06:47:50,717 DEBUG - Starting WinSW in service mode
+2022-12-20 06:47:50,936 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2022-12-20 06:47:51,357 INFO  - Started process 6636
+2022-12-20 06:47:51,357 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-01-10 14:01:32,384 DEBUG - Starting WinSW in service mode
+2023-01-10 14:01:32,446 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-01-10 14:01:32,821 INFO  - Started process 6340
+2023-01-10 14:01:32,821 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-01-11 13:53:26,012 INFO  - Stopping nginx
+2023-01-11 13:53:26,043 DEBUG - ProcessKill 6340
+2023-01-11 13:53:26,043 DEBUG - Stopping process 6340...
+2023-01-11 13:53:26,043 DEBUG - Process 6340 terminated.
+2023-01-11 13:53:26,043 DEBUG - Found child process 6860.
+2023-01-11 13:53:26,058 DEBUG - Stopping process 6860...
+2023-01-11 13:53:26,058 DEBUG - Process 6860 canceled with code -1073741510.
+2023-01-11 13:53:26,090 INFO  - Finished nginx
+2023-01-11 13:53:54,772 DEBUG - Starting WinSW in service mode
+2023-01-11 13:53:54,834 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-01-11 13:53:55,100 INFO  - Started process 6168
+2023-01-11 13:53:55,100 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-01-11 13:54:13,128 INFO  - Stopping nginx
+2023-01-11 13:54:13,128 DEBUG - ProcessKill 6168
+2023-01-11 13:54:13,128 DEBUG - Stopping process 6168...
+2023-01-11 13:54:13,128 DEBUG - Process 6168 terminated.
+2023-01-11 13:54:13,143 DEBUG - Found child process 6576.
+2023-01-11 13:54:13,159 DEBUG - Stopping process 6576...
+2023-01-11 13:54:13,159 DEBUG - Process 6576 canceled with code -1073741510.
+2023-01-11 13:54:13,159 INFO  - Finished nginx
+2023-01-11 13:54:46,728 DEBUG - Starting WinSW in service mode
+2023-01-11 13:54:46,791 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-01-11 13:54:47,134 INFO  - Started process 6612
+2023-01-11 13:54:47,134 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-01-11 14:05:22,512 INFO  - Stopping nginx
+2023-01-11 14:05:22,512 DEBUG - ProcessKill 6612
+2023-01-11 14:05:22,512 DEBUG - Stopping process 6612...
+2023-01-11 14:05:22,512 DEBUG - Process 6612 terminated.
+2023-01-11 14:05:22,528 DEBUG - Found child process 6704.
+2023-01-11 14:05:22,528 DEBUG - Stopping process 6704...
+2023-01-11 14:05:22,543 DEBUG - Process 6704 canceled with code -1073741510.
+2023-01-11 14:05:22,543 INFO  - Finished nginx
+2023-01-11 14:05:49,292 DEBUG - Starting WinSW in service mode
+2023-01-11 14:05:49,308 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-01-11 14:05:49,651 INFO  - Started process 6500
+2023-01-11 14:05:49,667 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-01-15 08:52:54,107 DEBUG - Starting WinSW in service mode
+2023-01-15 08:52:54,216 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-01-15 08:52:54,529 INFO  - Started process 6624
+2023-01-15 08:52:54,544 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-02-14 08:52:55,291 DEBUG - Starting WinSW in service mode
+2023-02-14 08:52:55,369 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-02-14 08:52:55,869 INFO  - Started process 6820
+2023-02-14 08:52:55,869 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-02-15 19:56:34,501 INFO  - Stopping nginx
+2023-02-15 19:56:34,517 DEBUG - ProcessKill 6820
+2023-02-15 19:56:34,517 DEBUG - Stopping process 6820...
+2023-02-15 19:56:34,517 DEBUG - Process 6820 terminated.
+2023-02-15 19:56:34,579 DEBUG - Found child process 6764.
+2023-02-15 19:56:34,579 DEBUG - Stopping process 6764...
+2023-02-15 19:56:34,595 DEBUG - Process 6764 canceled with code -1073741510.
+2023-02-15 19:56:34,595 INFO  - Finished nginx
+2023-02-15 19:57:00,242 DEBUG - Starting WinSW in service mode
+2023-02-15 19:57:00,461 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-02-15 19:57:00,680 INFO  - Started process 6980
+2023-02-15 19:57:00,695 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender
+2023-02-16 15:52:45,860 INFO  - Stopping nginx
+2023-02-16 15:52:45,860 DEBUG - ProcessKill 6980
+2023-02-16 15:52:45,860 DEBUG - Stopping process 6980...
+2023-02-16 15:52:45,860 DEBUG - Process 6980 terminated.
+2023-02-16 15:52:45,876 DEBUG - Found child process 7144.
+2023-02-16 15:52:45,876 DEBUG - Stopping process 7144...
+2023-02-16 15:52:45,891 DEBUG - Process 7144 canceled with code -1073741510.
+2023-02-16 15:52:45,907 INFO  - Finished nginx
+2023-02-16 15:53:13,366 DEBUG - Starting WinSW in service mode
+2023-02-16 15:53:13,413 INFO  - Starting D:\code-project\full-stack\nginx-1.22.0\nginx.exe 
+2023-02-16 15:53:13,913 INFO  - Started process 6836
+2023-02-16 15:53:13,913 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to WinSW.RollingLogAppender

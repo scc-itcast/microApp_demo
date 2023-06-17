@@ -4,5 +4,6 @@ dist
 vite1
 SmartBuildingEconomy
 dist-ssr
+*.zip
 *.local
 /vite_vue3_child
