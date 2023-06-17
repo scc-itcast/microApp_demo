@@ -1,0 +1,24 @@
+.el-pagination {
+  button {
+    background-color: #18363c !important;
+    .el-icon {
+      color: #ffffff;
+    }
+  }
+  button:disabled {
+    .el-icon {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  .el-pager li {
+    background-color: #18363c !important;
+    font-size: 14px;
+    font-family: OPPOSans-Regular, OPPOSans;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85) !important;
+  }
+  .is-active {
+    font-family: OPPOSans-Medium, OPPOSans;
+    border: 1px solid #41b4b5;
+  }
+}

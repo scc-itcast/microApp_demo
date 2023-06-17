@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+vite1
+SmartBuildingEconomy
+dist-ssr
+*.local
+/vite_vue3_child

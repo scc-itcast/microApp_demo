@@ -1,0 +1,41 @@
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont-svg'; /* Project id 3512856 */
+  src: url('//at.alicdn.com/t/c/font_3512856_w81ce6iu88a.woff2?t=1672039488005') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3512856_w81ce6iu88a.woff?t=1672039488005') format('woff'),
+       url('//at.alicdn.com/t/c/font_3512856_w81ce6iu88a.ttf?t=1672039488005') format('truetype'),
+       url('//at.alicdn.com/t/c/font_3512856_w81ce6iu88a.svg?t=1672039488005#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: 'iconfont-svg' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zhan:before {
+  font-family: 'iconfont-svg' !important;
+  font-size: 26px;
+  content: '\e7ed';
+}
+
+.shou:before {
+  font-family: 'iconfont-svg' !important;
+  font-size: 26px;
+  content: '\e802';
+}
+
+.shaixuan:before {
+  font-family: 'iconfont-svg' !important;
+  font-size: 30px;
+  content: '\e75a';
+}
+
+.kuoda1:before {
+  font-family: 'iconfont-svg' !important;
+  font-size: 30px;
+  content: '\e770';
+}
+
+
