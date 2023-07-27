@@ -2,7 +2,7 @@
  * @Author: guoke scc15599065860@163.com
  * @Date: 2023-06-13 09:25:34
  * @LastEditors: guoke scc15599065860@163.com
- * @LastEditTime: 2023-06-17 15:19:58
+ * @LastEditTime: 2023-07-26 10:18:17
  * @FilePath: \microApp_demo\vite_vue3_main\index.html
  * @Description: index
 -->
@@ -14,15 +14,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/reset_style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>microApp_demo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/reset_style.css" />
+    <script src="/assets/scripts/setting.js"></script>
+    <script src="/assets/scripts/player.js"></script>
+    <!-- playerJs是像素流文件 -->
   </head>
   <body>
-    <div id="app"></div>
-    <script>
-      document.body.style.background = '#999999'
-      window.setBodyTransparent = () => {
-        document.body.style.background = 'transparent'
-      }
-    </script>
+    <div id="mainApp"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

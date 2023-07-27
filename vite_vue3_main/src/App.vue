@@ -2,7 +2,7 @@
  * @Author: guoke scc15599065860@163.com
  * @Date: 2023-06-13 09:25:34
  * @LastEditors: guoke scc15599065860@163.com
- * @LastEditTime: 2023-06-17 14:11:07
+ * @LastEditTime: 2023-07-27 10:27:23
  * @FilePath: \microApp_demo\vite_vue3_main\src\App.vue
  * @Description: App
 -->
@@ -17,6 +17,66 @@
 
 <script setup>
 import HeaderNav from '@/components/HeaderNav/index.vue'
+
+// 向UE发信息
+const onConfigButton = () => {
+  try {
+    let descriptor = {
+      Category: 'Category',
+      Name: 'Name',
+      Parameters: {}
+    }
+    // console.log('descriptor', descriptor)
+    if (window.stream && window.stream.emitUIInteraction) window.stream.emitUIInteraction(descriptor)
+  } catch (error) {
+    console.log('onConfigButton', error)
+  }
+}
+
+const blobToDataURL = (blob, cb) => {
+  let reader = new FileReader()
+  reader.onload = function (evt) {
+    let base64 = evt.target.result
+    cb(base64)
+  }
+  reader.readAsDataURL(blob)
+}
+
+// 监听UE发送过来的信息
+const myHandleResponseFunction = (data) => {
+  const parseData = isString(data) ? JSON.parse(data) : data
+  if (parseData.type === 'onResponseFileContents') {
+    blobToDataURL(data.received, (base64Url) => {
+      console.log('myHandleResponseFunction', base64Url)
+    })
+  } else {
+    console.log('parseData', parseData)
+  }
+}
+
+const onParagonLoad = () => {
+  // console.log('stream', window.stream)
+  if (window.stream.addResponseEventListener) {
+    window.stream.addResponseEventListener('handle_responses', myHandleResponseFunction)
+  }
+}
+
+const onRemoveParagonLoad = () => {
+  if (window.stream.removeResponseEventListener) {
+    window.stream.removeResponseEventListener('handle_responses', myHandleResponseFunction)
+  }
+}
+
+onMounted(() => {
+  if (!window.stream) {
+    window.addEventListener('load', onParagonLoad)
+  } else {
+    onParagonLoad()
+  }
+})
+onUnmounted(() => {
+  onRemoveParagonLoad()
+})
 </script>
 
 <style>
